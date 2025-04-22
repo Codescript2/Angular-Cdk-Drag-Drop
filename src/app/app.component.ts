@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { BasicComponent } from './components/basic/basic.component';
+import { ListComponent } from './components/list/list.component';
+import { ConnectedComponent } from './components/connected/connected.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  imports: [BasicComponent, ListComponent, ConnectedComponent]
 })
 export class AppComponent {
-  title = 'angular-cdk-features';
 }
