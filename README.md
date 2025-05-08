@@ -1,6 +1,10 @@
-# AngularCdkFeatures
+# Angular Cdk Drag and Drop
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+
+## Link to the youtube video
+
+[Youtube Video](https://youtu.be/BRivj0y4XDA?si=eSu0AyTsEWI9oGY4)
 
 ## Development server
 
